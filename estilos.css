@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+}
+
+.container {
+    width: 40%;
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    border: -1px solid #242323;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 10px 10px 25px 5px rgba(73, 72, 72, 0.15);
+}
+
+/* Clases simplificadas y limpias */
+.dom h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.dia {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.numero h1 {
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+/* Estilo limpio para el botón */
+.boton button {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #2ECC71;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.boton button:hover {
+    background-color: #27AE60;
+}
+
+.boton button:active {
+    transform: scale(0.98);
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    color: #333;
+}

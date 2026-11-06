@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <div class="dom">
+            <h3>Interactividad con el DOM</h3>
+        </div>
+
+        <div class="dia">
+            haz click en el boton para incrementar el contador y aumentar la hora <b>exacta</b> del evento en la tabla
+        </div>
+
+        <div class="numero">
+            <h1><span id="contador">0</span></h1>
+        </div>
+
+        <div class="boton">
+            <button id="miBoton">¡Haz clic aquí!</button>
+        </div>
+
+        <!-- Tabla donde se irán agregando los registros -->
+        <table id="tabla-clicks">
+            <thead>
+                <tr>
+                    <th>Nº Clic</th>
+                    <th>Hora</th>
+                </tr>
+            </thead>
+            <tbody id="cuerpo-tabla">
+                <!-- Las filas se insertarán aquí dinámicamente -->
+            </tbody>
+        </table>
+
+    </div>
+
+    <!-- Archivo de JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
